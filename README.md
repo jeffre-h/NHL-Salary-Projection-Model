@@ -1,15 +1,15 @@
 # NHL Salary Projection Machine Learning Model
 
-### Defining the Problem
+### 1. Defining the Problem
 
 
-### Data Acquisition
+### 2. Data Acquisition
 
 
-### Data Cleaning & Preperation
+### 3. Data Cleaning & Preperation
 
 
-### Data Analysis
+### 4. Data Analysis
 
 
-### Visualizations & Conclusions
+### 5. Visualizations & Conclusions
