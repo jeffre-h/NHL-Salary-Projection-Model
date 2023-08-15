@@ -1,1 +1,14 @@
-# NHL Salary Projection Machine Learing Model
+# NHL Salary Projection Machine Learning Model
+
+
+
+### Data Acquisition
+
+
+### Data Cleaning & Preperation
+
+
+### Data Analysis
+
+
+### Visualizations & Conclusions
