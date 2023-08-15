@@ -65,22 +65,22 @@ def main(input, output):
     g = g.drop(columns = ['ixG','iSh','iCF','iFF','ixG60','iSh60','iCF60','iFF60','SF','SA','SF%','CF','CA','CF%','FF','FA','FF%','xGF','xGA','xGF%'])
 
     # combine data & output
-    if ("1819" in input):
+    if ("1819.csv" in input):
         s_out = os.path.join(output, "1819_cf_s.csv")
         g_out = os.path.join(output, "1819_cf_g.csv")
         s.to_csv(s_out)
         g.to_csv(g_out)
-    elif ("1920" in input):
+    elif ("1920.csv" in input):
         s_out = os.path.join(output, "1920_cf_s.csv")
         g_out = os.path.join(output, "1920_cf_g.csv")
         s.to_csv(s_out)
         g.to_csv(g_out)
-    elif ("2021" in input):
+    elif ("2021.csv" in input):
         s_out = os.path.join(output, "2021_cf_s.csv")
         g_out = os.path.join(output, "2021_cf_g.csv")
         s.to_csv(s_out)
         g.to_csv(g_out)
-    elif ("2122" in input):
+    elif ("2122.csv" in input):
         s_out = os.path.join(output, "2122_cf_s.csv")
         g_out = os.path.join(output, "2122_cf_g.csv")
         s.to_csv(s_out)

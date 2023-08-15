@@ -47,25 +47,25 @@ def main(input_s, input_g, output):
     
         
     # output
-    if ("1819" in input_s):
+    if ("1819.csv" in input_s):
         s_out = os.path.join(output, "1819_hr_s.csv")
         g_out = os.path.join(output, "1819_hr_g.csv")
         s.to_csv(s_out)
         g.to_csv(g_out)
 
-    elif ("1920" in input_s):
+    elif ("1920.csv" in input_s):
         s_out = os.path.join(output, "1920_hr_s.csv")
         g_out = os.path.join(output, "1920_hr_g.csv")
         s.to_csv(s_out)
         g.to_csv(g_out)
 
-    elif ("2021" in input_s):
+    elif ("2021.csv" in input_s):
         s_out = os.path.join(output, "2021_hr_s.csv")
         g_out = os.path.join(output, "2021_hr_g.csv")
         s.to_csv(s_out)
         g.to_csv(g_out)
 
-    elif ("2122" in input_s): 
+    elif ("2122.csv" in input_s): 
         s_out = os.path.join(output, "2122_hr_s.csv")
         g_out = os.path.join(output, "2122_hr_g.csv")
         s.to_csv(s_out)
