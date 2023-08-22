@@ -71,12 +71,11 @@ python3 04-analysis_goalies.py
 
 
 ## 5. Visualizations
-![centre](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/f285912b-8687-4863-85f0-460a8b4d16d4)
 
-![winger](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/9301e7d6-19bb-49bd-8af5-a363cc6d0603)
+![centre_fa](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/7169ad8c-775b-4258-b531-66ae22bdfd27)
 
-![defence](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/9a07464b-3357-422d-9581-cde1958785eb)
+![winger_fa](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/9d5814f1-716e-435d-b4fc-71ba0ab4c683)
 
-![goalie](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/87943505-e4ee-48c8-9b50-736cf86fdb2d)
+![defence_fa](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/f1c145bd-4ff3-412e-888c-9bb66bad4c01)
 
-
+![goalie_fa](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/c8e2c86d-0dc6-40fd-bfcb-f774d22456aa)
