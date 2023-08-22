@@ -39,6 +39,7 @@ python3 01-cleaning_hr.py raw/2022-2023/hockeyref2223.csv raw/2022-2023/hockeyre
 The bulk of the cleaning was filtering out players with insufficient games played. We simply asserted that skaters who don’t play at least half the games in a season (41) would be filtered out of the dataset for that season. Goalies follow a different dynamic, so we asserted that goalies who didn’t play at least 10 games in a season would be filtered out from the dataset. Any amount of games played less than this threshold, would indicate that the player is a fringe “NHLer” and would not be a useful datapoint. Lastly, we had to reduce these thresholds from 41 to 28 and 10 to 7 for the 2019-2020 season, which was shortened to 56 games due to covid-19.
 
 After cleaning the datasets from both sites, we wrote the “02-combine_data.py” script to join the datasets on player names for each year. 
+
 For skaters:
 ```bash
 python3 02-combine_data.py cleaned/2018-2019/1819_cf_s.csv cleaned/2018-2019/1819_hr_s.csv combined
@@ -60,6 +61,7 @@ In doing so, we had to consider cases where 2 different players had the exact sa
 
 
 ## 4. Data Analysis
+
 ```bash
 python3 03-analysis_skaters.py
 ```
