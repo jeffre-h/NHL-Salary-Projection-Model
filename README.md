@@ -1,10 +1,11 @@
 # NHL Salary Projection Machine Learning Model
 
-### 1. Defining the Problem
+## 1. Defining the Problem
 Every player in the NHL has a contract and the salary compensation they receive is dependent on a myriad of variables. So much so that predicting NHL salaries is a virtually impossible task. The goal is to make the best predictions we can using various regression models.  A useful application of this prediction model is to view predictions as projections for how much a player should actually make. Meaning if a player’s actual salary is greater than the predicted salary, then we can view this player as “overpaid”. Conversely, if a player’s actual salary is less than the predicted salary, we can view the player as “underpaid”.
 
 
-### 2. Data Acquisition
+
+## 2. Data Acquisition
 Because of the amount and variety of stats needed, data was acquired from 2 sources:
 1) hockey-reference.com : on-ice stats, advanced stats for goalies
 2) capfriendly.com : advanced stats for skaters, physical attributes & contract information
@@ -14,7 +15,8 @@ The hockey-reference data was easy to acquire as they provided a downloadable cs
 The Capfriendly website on the other hand took a significantly longer time to acquire. They did not provide a downloadable csv file and only displayed stats for 50 players at a time. Thus to extract the data for a season, one would have to scrape 50 players at a time using excel and its “import from web” feature. The dataset was then split into skaters and goalies afterwards.
 
 
-### 3. Data Cleaning & Preperation
+
+## 3. Data Cleaning & Preperation
 
 For the Capfriendly datasets, the “01-cleaning_cf.py” script is used to clean the raw data collected:
 ```bash
@@ -39,24 +41,25 @@ The bulk of the cleaning was filtering out players with insufficient games playe
 After cleaning the datasets from both sites, we wrote the “02-combine_data.py” script to join the datasets on player names for each year. 
 For skaters:
 ```bash
-# python3 02-combine_data.py cleaned/2018-2019/1819_cf_s.csv cleaned/2018-2019/1819_hr_s.csv combined
-# python3 02-combine_data.py cleaned/2019-2020/1920_cf_s.csv cleaned/2019-2020/1920_hr_s.csv combined
-# python3 02-combine_data.py cleaned/2020-2021/2021_cf_s.csv cleaned/2020-2021/2021_hr_s.csv combined
-# python3 02-combine_data.py cleaned/2021-2022/2122_cf_s.csv cleaned/2021-2022/2122_hr_s.csv combined
-# python3 02-combine_data.py cleaned/2022-2023/2223_cf_s.csv cleaned/2022-2023/2223_hr_s.csv combined
+python3 02-combine_data.py cleaned/2018-2019/1819_cf_s.csv cleaned/2018-2019/1819_hr_s.csv combined
+python3 02-combine_data.py cleaned/2019-2020/1920_cf_s.csv cleaned/2019-2020/1920_hr_s.csv combined
+python3 02-combine_data.py cleaned/2020-2021/2021_cf_s.csv cleaned/2020-2021/2021_hr_s.csv combined
+python3 02-combine_data.py cleaned/2021-2022/2122_cf_s.csv cleaned/2021-2022/2122_hr_s.csv combined
+python3 02-combine_data.py cleaned/2022-2023/2223_cf_s.csv cleaned/2022-2023/2223_hr_s.csv combined
 ```
 For goalies:
 ```bash
-# python3 02-combine_data.py cleaned/2018-2019/1819_cf_g.csv cleaned/2018-2019/1819_hr_g.csv combined
-# python3 02-combine_data.py cleaned/2019-2020/1920_cf_g.csv cleaned/2019-2020/1920_hr_g.csv combined
-# python3 02-combine_data.py cleaned/2020-2021/2021_cf_g.csv cleaned/2020-2021/2021_hr_g.csv combined
-# python3 02-combine_data.py cleaned/2021-2022/2122_cf_g.csv cleaned/2021-2022/2122_hr_g.csv combined
-# python3 02-combine_data.py cleaned/2022-2023/2223_cf_g.csv cleaned/2022-2023/2223_hr_g.csv combined
+python3 02-combine_data.py cleaned/2018-2019/1819_cf_g.csv cleaned/2018-2019/1819_hr_g.csv combined
+python3 02-combine_data.py cleaned/2019-2020/1920_cf_g.csv cleaned/2019-2020/1920_hr_g.csv combined
+python3 02-combine_data.py cleaned/2020-2021/2021_cf_g.csv cleaned/2020-2021/2021_hr_g.csv combined
+python3 02-combine_data.py cleaned/2021-2022/2122_cf_g.csv cleaned/2021-2022/2122_hr_g.csv combined
+python3 02-combine_data.py cleaned/2022-2023/2223_cf_g.csv cleaned/2022-2023/2223_hr_g.csv combined
 ```
 In doing so, we had to consider cases where 2 different players had the exact same name. From 2018-2023, we found that there were 2 instances. The first instance being “Sebastian Aho”, who are both skaters. The second instance being “Matt Murray”, who are both goalies. In both cases, one of the players did not meet the games played threshold used during data cleaning and were filtered out of our cleaned dataset. 
 
 
-### 4. Data Analysis
+
+## 4. Data Analysis
 ```bash
 python3 03-analysis_skaters.py
 ```
@@ -65,6 +68,8 @@ python3 03-analysis_skaters.py
 python3 04-analysis_goalies.py
 ```
 
-### 5. Visualizations
+
+
+## 5. Visualizations
 
 
