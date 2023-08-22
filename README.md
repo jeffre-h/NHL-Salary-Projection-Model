@@ -72,7 +72,7 @@ python3 04-analysis_goalies.py
 
 ## 5. Visualizations
 
-Projected vs. Actual salaries for 2023 free agents
+Projected vs. Actual salaries for 2023 free agents. For more visualizations, all NHL players or strictly Canucks players, checkout the other files in the github,
 
 ### Centres
 ![centre_fa](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/7169ad8c-775b-4258-b531-66ae22bdfd27)
@@ -85,3 +85,4 @@ Projected vs. Actual salaries for 2023 free agents
 
 ### Goaltenders
 ![goalie_fa](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/c8e2c86d-0dc6-40fd-bfcb-f774d22456aa)
+
