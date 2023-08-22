@@ -72,10 +72,16 @@ python3 04-analysis_goalies.py
 
 ## 5. Visualizations
 
+Projected vs. Actual salaries for 2023 free agents
+
+### Centres
 ![centre_fa](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/7169ad8c-775b-4258-b531-66ae22bdfd27)
 
+### Wingers
 ![winger_fa](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/9d5814f1-716e-435d-b4fc-71ba0ab4c683)
 
+### Defencemen
 ![defence_fa](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/f1c145bd-4ff3-412e-888c-9bb66bad4c01)
 
+### Goaltenders
 ![goalie_fa](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/c8e2c86d-0dc6-40fd-bfcb-f774d22456aa)
