@@ -50,6 +50,7 @@ def main(cf, hr, output):
             g = os.path.join(output, "g2223.csv")
             combined.to_csv(g, index=False)
         else:
+            combined['Age'] = combined['Age'].astype(int)
             s = os.path.join(output, "s2223.csv")
             combined.to_csv(s, index=False)
             
