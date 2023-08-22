@@ -71,5 +71,12 @@ python3 04-analysis_goalies.py
 
 
 ## 5. Visualizations
+![centre](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/f285912b-8687-4863-85f0-460a8b4d16d4)
+
+![winger](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/9301e7d6-19bb-49bd-8af5-a363cc6d0603)
+
+![defence](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/9a07464b-3357-422d-9581-cde1958785eb)
+
+![goalie](https://github.com/jeffre-h/NHL_Salary_Projection_Machine_Learning_Model/assets/104662025/87943505-e4ee-48c8-9b50-736cf86fdb2d)
 
 
