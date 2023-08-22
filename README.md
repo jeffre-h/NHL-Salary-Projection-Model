@@ -68,6 +68,7 @@ python3 03-analysis_skaters.py
 python3 04-analysis_goalies.py
 ```
 
+The data is then split into a training set and a test set and applied to various regression models. The training set for the data was a combination of the data sets from the 2018-209 season to the 2021-2022 season and the test data set was the 2022-2023 season set. The data was applied to five common regression models, including Random Forest, Gradient Boosting, MPL, and K neighbor. Of these options, Random Forest and Gradient Boosting performed the best throughout the analysis, so they were used in a voting regression model to predict the future cap hit percentage. Next, plot the predicted cap hit using the voting model against the actual cap hit percentage for the 2022-2023 season. 
 
 
 ## 5. Visualizations
